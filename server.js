@@ -3,10 +3,6 @@ const app = express();
 const mongoose = require("mongoose");
 const productRoute = require("./routes/productRoute");
 const cors = require("cors");
-// var corsOptions = {
-//   origin: "http://127.0.0.1:5173",
-//   optionsSuccessStatus: 200,
-// };
 app.use(cors());
 app.use(express.json());
 

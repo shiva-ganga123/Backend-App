@@ -5,7 +5,7 @@ const productRoute = require("./routes/productRoute");
 const cors = require("cors");
 
 var corsOptions = {
-  origin: "http://127.0.0.1:5173",
+  origin: "http://localhost:5173",
   optionSuccessStatus: 200,
 };
 
